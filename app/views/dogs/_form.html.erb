@@ -15,9 +15,16 @@
     <%= f.label :name %><br>
     <%= f.text_field :name %>
   </div>
+  
   <div class='field'>
     <%= f.label :age %><br>
     <%= f.number_field :age %>
+  </div>
+
+  <div class="field">
+    <%= f.label :picture %>
+    <%= f.hidden_field(:picture_cache) %>
+    <%= f.file_field(:picture) %>
   </div>
 
   <div class="actions">
