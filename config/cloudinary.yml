@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dvpxrahfy
+  api_key: '332322752567858'
+  api_secret: APM0p-dmnF0o07CTIc_432YEymI
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dvpxrahfy
+  api_key: '332322752567858'
+  api_secret: APM0p-dmnF0o07CTIc_432YEymI
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dvpxrahfy
+  api_key: '332322752567858'
+  api_secret: APM0p-dmnF0o07CTIc_432YEymI
+  enhance_image_tag: true
+  static_image_support: false
